@@ -1,0 +1,2365 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Lily58-rescue:ProMicro_2-Lily58-cache U1
+U 1 1 5F7E74F6
+P 2150 1800
+F 0 "U1" H 2150 2615 50  0000 C CNN
+F 1 "ProMicro" H 2150 2524 50  0000 C CNN
+F 2 "Zodiark:ProMicro_rev2" H 2100 1900 50  0001 C CNN
+F 3 "" H 2100 1900 50  0001 C CNN
+	1    2150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 5F7EB239
+P 6900 950
+F 0 "MX1" H 6933 1173 60  0000 C CNN
+F 1 "MX-NoLED" H 6933 1099 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6275 925 60  0001 C CNN
+F 3 "" H 6275 925 60  0001 C CNN
+	1    6900 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 5F7EC404
+P 7200 950
+F 0 "MX6" H 7233 1173 60  0000 C CNN
+F 1 "MX-NoLED" H 7233 1099 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6575 925 60  0001 C CNN
+F 3 "" H 6575 925 60  0001 C CNN
+	1    7200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 5F7ECC70
+P 7500 950
+F 0 "MX11" H 7533 1173 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 1099 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6875 925 60  0001 C CNN
+F 3 "" H 6875 925 60  0001 C CNN
+	1    7500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 5F7ECF70
+P 7800 950
+F 0 "MX16" H 7833 1173 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 1099 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7175 925 60  0001 C CNN
+F 3 "" H 7175 925 60  0001 C CNN
+	1    7800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 5F7ED3B8
+P 8100 950
+F 0 "MX21" H 8133 1173 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 1099 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7475 925 60  0001 C CNN
+F 3 "" H 7475 925 60  0001 C CNN
+	1    8100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX26
+U 1 1 5F7ED77E
+P 8400 950
+F 0 "MX26" H 8433 1173 60  0000 C CNN
+F 1 "MX-NoLED" H 8433 1099 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7775 925 60  0001 C CNN
+F 3 "" H 7775 925 60  0001 C CNN
+	1    8400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX31
+U 1 1 5F7EDA9F
+P 8700 950
+F 0 "MX31" H 8733 1173 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 1099 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 8075 925 60  0001 C CNN
+F 3 "" H 8075 925 60  0001 C CNN
+	1    8700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5F851EE4
+P 6950 1150
+F 0 "D1" V 6996 1082 50  0000 R CNN
+F 1 "D_Small" V 6905 1082 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 6950 1150 50  0001 C CNN
+F 3 "~" V 6950 1150 50  0001 C CNN
+	1    6950 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5F856685
+P 7250 1150
+F 0 "D11" V 7296 1082 50  0000 R CNN
+F 1 "D_Small" V 7205 1082 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7250 1150 50  0001 C CNN
+F 3 "~" V 7250 1150 50  0001 C CNN
+	1    7250 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5F857624
+P 7550 1150
+F 0 "D16" V 7596 1082 50  0000 R CNN
+F 1 "D_Small" V 7505 1082 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7550 1150 50  0001 C CNN
+F 3 "~" V 7550 1150 50  0001 C CNN
+	1    7550 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 5F857A3F
+P 7850 1150
+F 0 "D26" V 7896 1082 50  0000 R CNN
+F 1 "D_Small" V 7805 1082 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7850 1150 50  0001 C CNN
+F 3 "~" V 7850 1150 50  0001 C CNN
+	1    7850 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 5F857D60
+P 8150 1150
+F 0 "D31" V 8196 1082 50  0000 R CNN
+F 1 "D_Small" V 8105 1082 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8150 1150 50  0001 C CNN
+F 3 "~" V 8150 1150 50  0001 C CNN
+	1    8150 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 5F85815D
+P 8450 1150
+F 0 "D41" V 8496 1082 50  0000 R CNN
+F 1 "D_Small" V 8405 1082 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8450 1150 50  0001 C CNN
+F 3 "~" V 8450 1150 50  0001 C CNN
+	1    8450 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D46
+U 1 1 5F8584D8
+P 8750 1150
+F 0 "D46" V 8796 1082 50  0000 R CNN
+F 1 "D_Small" V 8705 1082 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8750 1150 50  0001 C CNN
+F 3 "~" V 8750 1150 50  0001 C CNN
+	1    8750 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 5F873F5B
+P 6900 1400
+F 0 "MX2" H 6933 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 6933 1549 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6275 1375 60  0001 C CNN
+F 3 "" H 6275 1375 60  0001 C CNN
+	1    6900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 5F873F65
+P 7200 1400
+F 0 "MX7" H 7233 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 7233 1549 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6575 1375 60  0001 C CNN
+F 3 "" H 6575 1375 60  0001 C CNN
+	1    7200 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 5F873F6F
+P 7500 1400
+F 0 "MX12" H 7533 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 1549 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6875 1375 60  0001 C CNN
+F 3 "" H 6875 1375 60  0001 C CNN
+	1    7500 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 5F873F79
+P 7800 1400
+F 0 "MX17" H 7833 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 1549 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7175 1375 60  0001 C CNN
+F 3 "" H 7175 1375 60  0001 C CNN
+	1    7800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX22
+U 1 1 5F873F83
+P 8100 1400
+F 0 "MX22" H 8133 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 1549 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7475 1375 60  0001 C CNN
+F 3 "" H 7475 1375 60  0001 C CNN
+	1    8100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX27
+U 1 1 5F873F8D
+P 8400 1400
+F 0 "MX27" H 8433 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 8433 1549 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7775 1375 60  0001 C CNN
+F 3 "" H 7775 1375 60  0001 C CNN
+	1    8400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX32
+U 1 1 5F873F97
+P 8700 1400
+F 0 "MX32" H 8733 1623 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 1549 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 8075 1375 60  0001 C CNN
+F 3 "" H 8075 1375 60  0001 C CNN
+	1    8700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5F873FA1
+P 6950 1600
+F 0 "D2" V 6996 1532 50  0000 R CNN
+F 1 "D_Small" V 6905 1532 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 6950 1600 50  0001 C CNN
+F 3 "~" V 6950 1600 50  0001 C CNN
+	1    6950 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5F873FAB
+P 7250 1600
+F 0 "D12" V 7296 1532 50  0000 R CNN
+F 1 "D_Small" V 7205 1532 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7250 1600 50  0001 C CNN
+F 3 "~" V 7250 1600 50  0001 C CNN
+	1    7250 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5F873FB5
+P 7550 1600
+F 0 "D17" V 7596 1532 50  0000 R CNN
+F 1 "D_Small" V 7505 1532 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7550 1600 50  0001 C CNN
+F 3 "~" V 7550 1600 50  0001 C CNN
+	1    7550 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 5F873FBF
+P 7850 1600
+F 0 "D27" V 7896 1532 50  0000 R CNN
+F 1 "D_Small" V 7805 1532 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7850 1600 50  0001 C CNN
+F 3 "~" V 7850 1600 50  0001 C CNN
+	1    7850 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 5F873FC9
+P 8150 1600
+F 0 "D32" V 8196 1532 50  0000 R CNN
+F 1 "D_Small" V 8105 1532 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8150 1600 50  0001 C CNN
+F 3 "~" V 8150 1600 50  0001 C CNN
+	1    8150 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 5F873FD3
+P 8450 1600
+F 0 "D42" V 8496 1532 50  0000 R CNN
+F 1 "D_Small" V 8405 1532 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8450 1600 50  0001 C CNN
+F 3 "~" V 8450 1600 50  0001 C CNN
+	1    8450 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D47
+U 1 1 5F873FDD
+P 8750 1600
+F 0 "D47" V 8796 1532 50  0000 R CNN
+F 1 "D_Small" V 8705 1532 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8750 1600 50  0001 C CNN
+F 3 "~" V 8750 1600 50  0001 C CNN
+	1    8750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 5F87D5D2
+P 6900 1850
+F 0 "MX3" H 6933 2073 60  0000 C CNN
+F 1 "MX-NoLED" H 6933 1999 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6275 1825 60  0001 C CNN
+F 3 "" H 6275 1825 60  0001 C CNN
+	1    6900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 5F87D5DC
+P 7200 1850
+F 0 "MX8" H 7233 2073 60  0000 C CNN
+F 1 "MX-NoLED" H 7233 1999 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6575 1825 60  0001 C CNN
+F 3 "" H 6575 1825 60  0001 C CNN
+	1    7200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 5F87D5E6
+P 7500 1850
+F 0 "MX13" H 7533 2073 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 1999 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6875 1825 60  0001 C CNN
+F 3 "" H 6875 1825 60  0001 C CNN
+	1    7500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 5F87D5F0
+P 7800 1850
+F 0 "MX18" H 7833 2073 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 1999 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7175 1825 60  0001 C CNN
+F 3 "" H 7175 1825 60  0001 C CNN
+	1    7800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX23
+U 1 1 5F87D5FA
+P 8100 1850
+F 0 "MX23" H 8133 2073 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 1999 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7475 1825 60  0001 C CNN
+F 3 "" H 7475 1825 60  0001 C CNN
+	1    8100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX28
+U 1 1 5F87D604
+P 8400 1850
+F 0 "MX28" H 8433 2073 60  0000 C CNN
+F 1 "MX-NoLED" H 8433 1999 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7775 1825 60  0001 C CNN
+F 3 "" H 7775 1825 60  0001 C CNN
+	1    8400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX33
+U 1 1 5F87D60E
+P 8700 1850
+F 0 "MX33" H 8733 2073 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 1999 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 8075 1825 60  0001 C CNN
+F 3 "" H 8075 1825 60  0001 C CNN
+	1    8700 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5F87D618
+P 6950 2050
+F 0 "D3" V 6996 1982 50  0000 R CNN
+F 1 "D_Small" V 6905 1982 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 6950 2050 50  0001 C CNN
+F 3 "~" V 6950 2050 50  0001 C CNN
+	1    6950 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5F87D622
+P 7250 2050
+F 0 "D13" V 7296 1982 50  0000 R CNN
+F 1 "D_Small" V 7205 1982 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7250 2050 50  0001 C CNN
+F 3 "~" V 7250 2050 50  0001 C CNN
+	1    7250 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5F87D62C
+P 7550 2050
+F 0 "D18" V 7596 1982 50  0000 R CNN
+F 1 "D_Small" V 7505 1982 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7550 2050 50  0001 C CNN
+F 3 "~" V 7550 2050 50  0001 C CNN
+	1    7550 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 5F87D636
+P 7850 2050
+F 0 "D28" V 7896 1982 50  0000 R CNN
+F 1 "D_Small" V 7805 1982 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7850 2050 50  0001 C CNN
+F 3 "~" V 7850 2050 50  0001 C CNN
+	1    7850 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 5F87D640
+P 8150 2050
+F 0 "D33" V 8196 1982 50  0000 R CNN
+F 1 "D_Small" V 8105 1982 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8150 2050 50  0001 C CNN
+F 3 "~" V 8150 2050 50  0001 C CNN
+	1    8150 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 5F87D64A
+P 8450 2050
+F 0 "D43" V 8496 1982 50  0000 R CNN
+F 1 "D_Small" V 8405 1982 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8450 2050 50  0001 C CNN
+F 3 "~" V 8450 2050 50  0001 C CNN
+	1    8450 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D48
+U 1 1 5F87D654
+P 8750 2050
+F 0 "D48" V 8796 1982 50  0000 R CNN
+F 1 "D_Small" V 8705 1982 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8750 2050 50  0001 C CNN
+F 3 "~" V 8750 2050 50  0001 C CNN
+	1    8750 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 5F8873D6
+P 6900 2300
+F 0 "MX4" H 6933 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 6933 2449 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6275 2275 60  0001 C CNN
+F 3 "" H 6275 2275 60  0001 C CNN
+	1    6900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 5F8873E0
+P 7200 2300
+F 0 "MX9" H 7233 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 7233 2449 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6575 2275 60  0001 C CNN
+F 3 "" H 6575 2275 60  0001 C CNN
+	1    7200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 5F8873EA
+P 7500 2300
+F 0 "MX14" H 7533 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 2449 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6875 2275 60  0001 C CNN
+F 3 "" H 6875 2275 60  0001 C CNN
+	1    7500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 5F8873F4
+P 7800 2300
+F 0 "MX19" H 7833 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 2449 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7175 2275 60  0001 C CNN
+F 3 "" H 7175 2275 60  0001 C CNN
+	1    7800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX24
+U 1 1 5F8873FE
+P 8100 2300
+F 0 "MX24" H 8133 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 2449 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7475 2275 60  0001 C CNN
+F 3 "" H 7475 2275 60  0001 C CNN
+	1    8100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX29
+U 1 1 5F887408
+P 8400 2300
+F 0 "MX29" H 8433 2523 60  0000 C CNN
+F 1 "MX-NoLED" H 8433 2449 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7775 2275 60  0001 C CNN
+F 3 "" H 7775 2275 60  0001 C CNN
+	1    8400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5F88741C
+P 6950 2500
+F 0 "D4" V 6996 2432 50  0000 R CNN
+F 1 "D_Small" V 6905 2432 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 6950 2500 50  0001 C CNN
+F 3 "~" V 6950 2500 50  0001 C CNN
+	1    6950 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5F887426
+P 7250 2500
+F 0 "D14" V 7296 2432 50  0000 R CNN
+F 1 "D_Small" V 7205 2432 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7250 2500 50  0001 C CNN
+F 3 "~" V 7250 2500 50  0001 C CNN
+	1    7250 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 5F887430
+P 7550 2500
+F 0 "D19" V 7596 2432 50  0000 R CNN
+F 1 "D_Small" V 7505 2432 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7550 2500 50  0001 C CNN
+F 3 "~" V 7550 2500 50  0001 C CNN
+	1    7550 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 5F88743A
+P 7850 2500
+F 0 "D29" V 7896 2432 50  0000 R CNN
+F 1 "D_Small" V 7805 2432 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7850 2500 50  0001 C CNN
+F 3 "~" V 7850 2500 50  0001 C CNN
+	1    7850 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 5F887444
+P 8150 2500
+F 0 "D34" V 8196 2432 50  0000 R CNN
+F 1 "D_Small" V 8105 2432 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8150 2500 50  0001 C CNN
+F 3 "~" V 8150 2500 50  0001 C CNN
+	1    8150 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D44
+U 1 1 5F88744E
+P 8450 2500
+F 0 "D44" V 8496 2432 50  0000 R CNN
+F 1 "D_Small" V 8405 2432 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8450 2500 50  0001 C CNN
+F 3 "~" V 8450 2500 50  0001 C CNN
+	1    8450 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D49
+U 1 1 5F887458
+P 8750 2500
+F 0 "D49" V 8796 2432 50  0000 R CNN
+F 1 "D_Small" V 8705 2432 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8750 2500 50  0001 C CNN
+F 3 "~" V 8750 2500 50  0001 C CNN
+	1    8750 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 5F88BA30
+P 6900 2750
+F 0 "MX5" H 6933 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 6933 2899 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6275 2725 60  0001 C CNN
+F 3 "" H 6275 2725 60  0001 C CNN
+	1    6900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 5F88BA3A
+P 7200 2750
+F 0 "MX10" H 7233 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 7233 2899 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6575 2725 60  0001 C CNN
+F 3 "" H 6575 2725 60  0001 C CNN
+	1    7200 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 5F88BA44
+P 7500 2750
+F 0 "MX15" H 7533 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 7533 2899 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 6875 2725 60  0001 C CNN
+F 3 "" H 6875 2725 60  0001 C CNN
+	1    7500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 5F88BA4E
+P 7800 2750
+F 0 "MX20" H 7833 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 7833 2899 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7175 2725 60  0001 C CNN
+F 3 "" H 7175 2725 60  0001 C CNN
+	1    7800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX25
+U 1 1 5F88BA58
+P 8100 2750
+F 0 "MX25" H 8133 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 2899 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7475 2725 60  0001 C CNN
+F 3 "" H 7475 2725 60  0001 C CNN
+	1    8100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX30
+U 1 1 5F88BA62
+P 8400 2750
+F 0 "MX30" H 8433 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 8433 2899 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 7775 2725 60  0001 C CNN
+F 3 "" H 7775 2725 60  0001 C CNN
+	1    8400 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX34
+U 1 1 5F88BA6C
+P 8700 2750
+F 0 "MX34" H 8733 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 8733 2899 20  0000 C CNN
+F 2 "Zodiark:MXOnly-1U-Hotswap-Double-noled" H 8075 2725 60  0001 C CNN
+F 3 "" H 8075 2725 60  0001 C CNN
+	1    8700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5F88BA76
+P 6950 2950
+F 0 "D5" V 6996 2882 50  0000 R CNN
+F 1 "D_Small" V 6905 2882 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 6950 2950 50  0001 C CNN
+F 3 "~" V 6950 2950 50  0001 C CNN
+	1    6950 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5F88BA80
+P 7250 2950
+F 0 "D15" V 7296 2882 50  0000 R CNN
+F 1 "D_Small" V 7205 2882 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7250 2950 50  0001 C CNN
+F 3 "~" V 7250 2950 50  0001 C CNN
+	1    7250 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5F88BA8A
+P 7550 2950
+F 0 "D20" V 7596 2882 50  0000 R CNN
+F 1 "D_Small" V 7505 2882 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7550 2950 50  0001 C CNN
+F 3 "~" V 7550 2950 50  0001 C CNN
+	1    7550 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 5F88BA94
+P 7850 2950
+F 0 "D30" V 7896 2882 50  0000 R CNN
+F 1 "D_Small" V 7805 2882 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 7850 2950 50  0001 C CNN
+F 3 "~" V 7850 2950 50  0001 C CNN
+	1    7850 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 5F88BA9E
+P 8150 2950
+F 0 "D35" V 8196 2882 50  0000 R CNN
+F 1 "D_Small" V 8105 2882 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8150 2950 50  0001 C CNN
+F 3 "~" V 8150 2950 50  0001 C CNN
+	1    8150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D45
+U 1 1 5F88BAA8
+P 8450 2950
+F 0 "D45" V 8496 2882 50  0000 R CNN
+F 1 "D_Small" V 8405 2882 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8450 2950 50  0001 C CNN
+F 3 "~" V 8450 2950 50  0001 C CNN
+	1    8450 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D50
+U 1 1 5F88BAB2
+P 8750 2950
+F 0 "D50" V 8796 2882 50  0000 R CNN
+F 1 "D_Small" V 8705 2882 50  0000 R CNN
+F 2 "Keebio-Parts:D_SOD123F" V 8750 2950 50  0001 C CNN
+F 3 "~" V 8750 2950 50  0001 C CNN
+	1    8750 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 1100 6950 1100
+Wire Wire Line
+	6950 1100 6950 1050
+Wire Wire Line
+	7150 1100 7250 1100
+Wire Wire Line
+	7250 1100 7250 1050
+Wire Wire Line
+	7450 1100 7550 1100
+Wire Wire Line
+	7550 1100 7550 1050
+Wire Wire Line
+	7750 1100 7850 1100
+Wire Wire Line
+	7850 1100 7850 1050
+Wire Wire Line
+	8050 1100 8150 1100
+Wire Wire Line
+	8150 1100 8150 1050
+Wire Wire Line
+	8350 1100 8450 1100
+Wire Wire Line
+	8450 1100 8450 1050
+Wire Wire Line
+	8650 1100 8750 1100
+Wire Wire Line
+	8750 1100 8750 1050
+Wire Wire Line
+	6850 1550 6950 1550
+Wire Wire Line
+	6950 1550 6950 1500
+Wire Wire Line
+	7150 1550 7250 1550
+Wire Wire Line
+	7250 1550 7250 1500
+Wire Wire Line
+	7450 1550 7550 1550
+Wire Wire Line
+	7550 1550 7550 1500
+Wire Wire Line
+	7750 1550 7850 1550
+Wire Wire Line
+	7850 1550 7850 1500
+Wire Wire Line
+	8050 1550 8150 1550
+Wire Wire Line
+	8150 1550 8150 1500
+Wire Wire Line
+	8350 1550 8450 1550
+Wire Wire Line
+	8450 1550 8450 1500
+Wire Wire Line
+	8650 1550 8750 1550
+Wire Wire Line
+	8750 1550 8750 1500
+Wire Wire Line
+	6850 2000 6950 2000
+Wire Wire Line
+	6950 2000 6950 1950
+Wire Wire Line
+	7150 2000 7250 2000
+Wire Wire Line
+	7250 2000 7250 1950
+Wire Wire Line
+	7450 2000 7550 2000
+Wire Wire Line
+	7550 2000 7550 1950
+Wire Wire Line
+	7750 2000 7850 2000
+Wire Wire Line
+	7850 2000 7850 1950
+Wire Wire Line
+	8050 2000 8150 2000
+Wire Wire Line
+	8150 2000 8150 1950
+Wire Wire Line
+	8350 2000 8450 2000
+Wire Wire Line
+	8450 2000 8450 1950
+Wire Wire Line
+	8750 2000 8750 1950
+Wire Wire Line
+	8650 2000 8750 2000
+Wire Wire Line
+	6850 2450 6950 2450
+Wire Wire Line
+	6950 2450 6950 2400
+Wire Wire Line
+	7150 2450 7250 2450
+Wire Wire Line
+	7250 2450 7250 2400
+Wire Wire Line
+	7450 2450 7550 2450
+Wire Wire Line
+	7550 2450 7550 2400
+Wire Wire Line
+	7750 2450 7850 2450
+Wire Wire Line
+	7850 2450 7850 2400
+Wire Wire Line
+	8050 2450 8150 2450
+Wire Wire Line
+	8150 2450 8150 2400
+Wire Wire Line
+	8350 2450 8450 2450
+Wire Wire Line
+	8450 2450 8450 2400
+Wire Wire Line
+	8750 2450 8750 2400
+Wire Wire Line
+	6850 2900 6950 2900
+Wire Wire Line
+	6950 2900 6950 2850
+Wire Wire Line
+	7150 2900 7250 2900
+Wire Wire Line
+	7250 2900 7250 2850
+Wire Wire Line
+	7450 2900 7550 2900
+Wire Wire Line
+	7550 2900 7550 2850
+Wire Wire Line
+	7750 2900 7850 2900
+Wire Wire Line
+	7850 2900 7850 2850
+Wire Wire Line
+	8050 2900 8150 2900
+Wire Wire Line
+	8150 2900 8150 2850
+Wire Wire Line
+	8350 2900 8450 2900
+Wire Wire Line
+	8450 2900 8450 2850
+Wire Wire Line
+	8650 2900 8750 2900
+Wire Wire Line
+	8750 2900 8750 2850
+Wire Wire Line
+	8750 3050 8450 3050
+Connection ~ 6950 3050
+Wire Wire Line
+	6950 3050 6700 3050
+Connection ~ 7250 3050
+Wire Wire Line
+	7250 3050 6950 3050
+Connection ~ 7550 3050
+Wire Wire Line
+	7550 3050 7250 3050
+Connection ~ 7850 3050
+Wire Wire Line
+	7850 3050 7550 3050
+Connection ~ 8150 3050
+Wire Wire Line
+	8150 3050 7850 3050
+Connection ~ 8450 3050
+Wire Wire Line
+	8450 3050 8150 3050
+Wire Wire Line
+	8750 2600 8450 2600
+Connection ~ 6950 2600
+Wire Wire Line
+	6950 2600 6700 2600
+Connection ~ 7250 2600
+Wire Wire Line
+	7250 2600 6950 2600
+Connection ~ 7550 2600
+Wire Wire Line
+	7550 2600 7250 2600
+Connection ~ 7850 2600
+Wire Wire Line
+	7850 2600 7550 2600
+Connection ~ 8150 2600
+Wire Wire Line
+	8150 2600 7850 2600
+Connection ~ 8450 2600
+Wire Wire Line
+	8450 2600 8150 2600
+Wire Wire Line
+	8750 2150 8450 2150
+Connection ~ 6950 2150
+Wire Wire Line
+	6950 2150 6700 2150
+Connection ~ 7250 2150
+Wire Wire Line
+	7250 2150 6950 2150
+Connection ~ 7550 2150
+Wire Wire Line
+	7550 2150 7250 2150
+Connection ~ 7850 2150
+Wire Wire Line
+	7850 2150 7550 2150
+Connection ~ 8150 2150
+Wire Wire Line
+	8150 2150 7850 2150
+Connection ~ 8450 2150
+Wire Wire Line
+	8450 2150 8150 2150
+Wire Wire Line
+	8750 1700 8450 1700
+Connection ~ 6950 1700
+Wire Wire Line
+	6950 1700 6700 1700
+Connection ~ 7250 1700
+Wire Wire Line
+	7250 1700 6950 1700
+Connection ~ 7550 1700
+Wire Wire Line
+	7550 1700 7250 1700
+Connection ~ 7850 1700
+Wire Wire Line
+	7850 1700 7550 1700
+Connection ~ 8150 1700
+Wire Wire Line
+	8150 1700 7850 1700
+Connection ~ 8450 1700
+Wire Wire Line
+	8450 1700 8150 1700
+Wire Wire Line
+	8750 1250 8450 1250
+Connection ~ 6950 1250
+Wire Wire Line
+	6950 1250 6700 1250
+Connection ~ 7250 1250
+Wire Wire Line
+	7250 1250 6950 1250
+Connection ~ 7550 1250
+Wire Wire Line
+	7550 1250 7250 1250
+Connection ~ 7850 1250
+Wire Wire Line
+	7850 1250 7550 1250
+Connection ~ 8150 1250
+Wire Wire Line
+	8150 1250 7850 1250
+Connection ~ 8450 1250
+Wire Wire Line
+	8450 1250 8150 1250
+Wire Wire Line
+	7050 2700 7050 2250
+Connection ~ 7050 900 
+Wire Wire Line
+	7050 900  7050 750 
+Connection ~ 7050 1350
+Wire Wire Line
+	7050 1350 7050 900 
+Connection ~ 7050 1800
+Wire Wire Line
+	7050 1800 7050 1350
+Connection ~ 7050 2250
+Wire Wire Line
+	7050 2250 7050 1800
+Wire Wire Line
+	7350 2700 7350 2250
+Connection ~ 7350 900 
+Wire Wire Line
+	7350 900  7350 750 
+Connection ~ 7350 1350
+Wire Wire Line
+	7350 1350 7350 900 
+Connection ~ 7350 1800
+Wire Wire Line
+	7350 1800 7350 1350
+Connection ~ 7350 2250
+Wire Wire Line
+	7350 2250 7350 1800
+Wire Wire Line
+	7650 2700 7650 2250
+Connection ~ 7650 900 
+Wire Wire Line
+	7650 900  7650 750 
+Connection ~ 7650 1350
+Wire Wire Line
+	7650 1350 7650 900 
+Connection ~ 7650 1800
+Wire Wire Line
+	7650 1800 7650 1350
+Connection ~ 7650 2250
+Wire Wire Line
+	7650 2250 7650 1800
+Wire Wire Line
+	7950 2700 7950 2250
+Connection ~ 7950 900 
+Wire Wire Line
+	7950 900  7950 750 
+Connection ~ 7950 1350
+Wire Wire Line
+	7950 1350 7950 900 
+Connection ~ 7950 1800
+Wire Wire Line
+	7950 1800 7950 1350
+Connection ~ 7950 2250
+Wire Wire Line
+	7950 2250 7950 1800
+Wire Wire Line
+	8250 2700 8250 2250
+Connection ~ 8250 900 
+Wire Wire Line
+	8250 900  8250 750 
+Connection ~ 8250 1350
+Wire Wire Line
+	8250 1350 8250 900 
+Connection ~ 8250 1800
+Wire Wire Line
+	8250 1800 8250 1350
+Connection ~ 8250 2250
+Wire Wire Line
+	8250 2250 8250 1800
+Wire Wire Line
+	8550 2700 8550 2250
+Connection ~ 8550 900 
+Wire Wire Line
+	8550 900  8550 750 
+Connection ~ 8550 1350
+Wire Wire Line
+	8550 1350 8550 900 
+Connection ~ 8550 1800
+Wire Wire Line
+	8550 1800 8550 1350
+Connection ~ 8550 2250
+Wire Wire Line
+	8550 2250 8550 1800
+Connection ~ 8850 900 
+Wire Wire Line
+	8850 900  8850 750 
+Connection ~ 8850 1350
+Wire Wire Line
+	8850 1350 8850 900 
+Connection ~ 8850 1800
+Wire Wire Line
+	8850 1800 8850 1350
+Connection ~ 6950 3800
+$Comp
+L power:VCC #PWR0101
+U 1 1 5F987F7E
+P 6950 3800
+F 0 "#PWR0101" H 6950 3650 50  0001 C CNN
+F 1 "VCC" V 6967 3928 50  0000 L CNN
+F 2 "" H 6950 3800 50  0001 C CNN
+F 3 "" H 6950 3800 50  0001 C CNN
+	1    6950 3800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10550 4400
+$Comp
+L power:GND #PWR0102
+U 1 1 5F987F89
+P 10550 4400
+F 0 "#PWR0102" H 10550 4150 50  0001 C CNN
+F 1 "GND" V 10555 4272 50  0000 R CNN
+F 2 "" H 10550 4400 50  0001 C CNN
+F 3 "" H 10550 4400 50  0001 C CNN
+	1    10550 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 3800 6950 3800
+Connection ~ 7550 3800
+Wire Wire Line
+	8150 3800 7550 3800
+Connection ~ 8150 3800
+Wire Wire Line
+	8750 3800 8150 3800
+Connection ~ 8750 3800
+Wire Wire Line
+	9350 3800 8750 3800
+Connection ~ 9350 3800
+Wire Wire Line
+	9950 3800 9350 3800
+Connection ~ 9950 3800
+Wire Wire Line
+	10550 3800 9950 3800
+Wire Wire Line
+	7550 4400 6950 4400
+Connection ~ 7550 4400
+Wire Wire Line
+	8150 4400 7550 4400
+Connection ~ 8150 4400
+Wire Wire Line
+	8750 4400 8150 4400
+Connection ~ 8750 4400
+Wire Wire Line
+	9350 4400 8750 4400
+Connection ~ 9350 4400
+Wire Wire Line
+	9950 4400 9350 4400
+Connection ~ 9950 4400
+Wire Wire Line
+	10550 4400 9950 4400
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D7
+U 1 1 5F987FA9
+P 6950 4100
+F 0 "D7" H 7294 4146 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 7294 4055 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 7000 3800 50  0001 L TNN
+F 3 "" H 7050 3725 50  0001 L TNN
+	1    6950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D22
+U 1 1 5F987FB3
+P 7550 4100
+F 0 "D22" H 7894 4146 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 7894 4055 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 7600 3800 50  0001 L TNN
+F 3 "" H 7650 3725 50  0001 L TNN
+	1    7550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D37
+U 1 1 5F987FBD
+P 8150 4100
+F 0 "D37" H 8494 4146 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 8494 4055 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8200 3800 50  0001 L TNN
+F 3 "" H 8250 3725 50  0001 L TNN
+	1    8150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D52
+U 1 1 5F987FC7
+P 8750 4100
+F 0 "D52" H 9094 4146 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9094 4055 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8800 3800 50  0001 L TNN
+F 3 "" H 8850 3725 50  0001 L TNN
+	1    8750 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D57
+U 1 1 5F987FD1
+P 9350 4100
+F 0 "D57" H 9694 4146 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9694 4055 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 9400 3800 50  0001 L TNN
+F 3 "" H 9450 3725 50  0001 L TNN
+	1    9350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D62
+U 1 1 5F987FDB
+P 9950 4100
+F 0 "D62" H 10294 4146 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10294 4055 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10000 3800 50  0001 L TNN
+F 3 "" H 10050 3725 50  0001 L TNN
+	1    9950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D67
+U 1 1 5F987FE5
+P 10550 4100
+F 0 "D67" H 10894 4146 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10894 4055 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10600 3800 50  0001 L TNN
+F 3 "" H 10650 3725 50  0001 L TNN
+	1    10550 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 10550 5050
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F9EEDD9
+P 10550 5050
+F 0 "#PWR0103" H 10550 4900 50  0001 C CNN
+F 1 "VCC" V 10567 5178 50  0000 L CNN
+F 2 "" H 10550 5050 50  0001 C CNN
+F 3 "" H 10550 5050 50  0001 C CNN
+	1    10550 5050
+	0    1    1    0   
+$EndComp
+Connection ~ 6950 4450
+$Comp
+L power:GND #PWR0104
+U 1 1 5F9EEDE4
+P 6950 4450
+F 0 "#PWR0104" H 6950 4200 50  0001 C CNN
+F 1 "GND" V 6955 4322 50  0000 R CNN
+F 2 "" H 6950 4450 50  0001 C CNN
+F 3 "" H 6950 4450 50  0001 C CNN
+	1    6950 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 5050 10550 5050
+Connection ~ 9950 5050
+Wire Wire Line
+	9350 5050 9950 5050
+Connection ~ 9350 5050
+Wire Wire Line
+	8750 5050 9350 5050
+Connection ~ 8750 5050
+Wire Wire Line
+	8150 5050 8750 5050
+Connection ~ 8150 5050
+Wire Wire Line
+	7550 5050 8150 5050
+Connection ~ 7550 5050
+Wire Wire Line
+	6950 5050 7550 5050
+Wire Wire Line
+	9950 4450 10550 4450
+Connection ~ 9950 4450
+Wire Wire Line
+	9350 4450 9950 4450
+Connection ~ 9350 4450
+Wire Wire Line
+	8750 4450 9350 4450
+Connection ~ 8750 4450
+Wire Wire Line
+	8150 4450 8750 4450
+Connection ~ 8150 4450
+Wire Wire Line
+	7550 4450 8150 4450
+Connection ~ 7550 4450
+Wire Wire Line
+	6950 4450 7550 4450
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D68
+U 1 1 5F9EEE04
+P 10550 4750
+F 0 "D68" H 10894 4796 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10894 4705 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10600 4450 50  0001 L TNN
+F 3 "" H 10650 4375 50  0001 L TNN
+	1    10550 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D63
+U 1 1 5F9EEE0E
+P 9950 4750
+F 0 "D63" H 10294 4796 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10294 4705 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10000 4450 50  0001 L TNN
+F 3 "" H 10050 4375 50  0001 L TNN
+	1    9950 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D58
+U 1 1 5F9EEE18
+P 9350 4750
+F 0 "D58" H 9694 4796 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9694 4705 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 9400 4450 50  0001 L TNN
+F 3 "" H 9450 4375 50  0001 L TNN
+	1    9350 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D53
+U 1 1 5F9EEE22
+P 8750 4750
+F 0 "D53" H 9094 4796 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9094 4705 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8800 4450 50  0001 L TNN
+F 3 "" H 8850 4375 50  0001 L TNN
+	1    8750 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D38
+U 1 1 5F9EEE2C
+P 8150 4750
+F 0 "D38" H 8494 4796 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 8494 4705 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8200 4450 50  0001 L TNN
+F 3 "" H 8250 4375 50  0001 L TNN
+	1    8150 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D23
+U 1 1 5F9EEE36
+P 7550 4750
+F 0 "D23" H 7894 4796 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 7894 4705 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 7600 4450 50  0001 L TNN
+F 3 "" H 7650 4375 50  0001 L TNN
+	1    7550 4750
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D8
+U 1 1 5F9EEE40
+P 6950 4750
+F 0 "D8" H 7294 4796 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 7294 4705 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 7000 4450 50  0001 L TNN
+F 3 "" H 7050 4375 50  0001 L TNN
+	1    6950 4750
+	-1   0    0    1   
+$EndComp
+Connection ~ 6950 5100
+$Comp
+L power:VCC #PWR0105
+U 1 1 5FA08A70
+P 6950 5100
+F 0 "#PWR0105" H 6950 4950 50  0001 C CNN
+F 1 "VCC" V 6967 5228 50  0000 L CNN
+F 2 "" H 6950 5100 50  0001 C CNN
+F 3 "" H 6950 5100 50  0001 C CNN
+	1    6950 5100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10550 5700
+$Comp
+L power:GND #PWR0106
+U 1 1 5FA08A7B
+P 10550 5700
+F 0 "#PWR0106" H 10550 5450 50  0001 C CNN
+F 1 "GND" V 10555 5572 50  0000 R CNN
+F 2 "" H 10550 5700 50  0001 C CNN
+F 3 "" H 10550 5700 50  0001 C CNN
+	1    10550 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 5100 6950 5100
+Connection ~ 7550 5100
+Wire Wire Line
+	8150 5100 7550 5100
+Connection ~ 8150 5100
+Wire Wire Line
+	8750 5100 8150 5100
+Connection ~ 8750 5100
+Wire Wire Line
+	9350 5100 8750 5100
+Connection ~ 9350 5100
+Wire Wire Line
+	9950 5100 9350 5100
+Connection ~ 9950 5100
+Wire Wire Line
+	10550 5100 9950 5100
+Wire Wire Line
+	7550 5700 6950 5700
+Connection ~ 7550 5700
+Wire Wire Line
+	8150 5700 7550 5700
+Connection ~ 8150 5700
+Wire Wire Line
+	8750 5700 8150 5700
+Connection ~ 8750 5700
+Wire Wire Line
+	9350 5700 8750 5700
+Connection ~ 9350 5700
+Wire Wire Line
+	9950 5700 9350 5700
+Connection ~ 9950 5700
+Wire Wire Line
+	10550 5700 9950 5700
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D9
+U 1 1 5FA08A9B
+P 6950 5400
+F 0 "D9" H 7294 5446 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 7294 5355 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 7000 5100 50  0001 L TNN
+F 3 "" H 7050 5025 50  0001 L TNN
+	1    6950 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D24
+U 1 1 5FA08AA5
+P 7550 5400
+F 0 "D24" H 7894 5446 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 7894 5355 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 7600 5100 50  0001 L TNN
+F 3 "" H 7650 5025 50  0001 L TNN
+	1    7550 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D39
+U 1 1 5FA08AAF
+P 8150 5400
+F 0 "D39" H 8494 5446 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 8494 5355 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8200 5100 50  0001 L TNN
+F 3 "" H 8250 5025 50  0001 L TNN
+	1    8150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D54
+U 1 1 5FA08AB9
+P 8750 5400
+F 0 "D54" H 9094 5446 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9094 5355 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8800 5100 50  0001 L TNN
+F 3 "" H 8850 5025 50  0001 L TNN
+	1    8750 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D59
+U 1 1 5FA08AC3
+P 9350 5400
+F 0 "D59" H 9694 5446 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9694 5355 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 9400 5100 50  0001 L TNN
+F 3 "" H 9450 5025 50  0001 L TNN
+	1    9350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D64
+U 1 1 5FA08ACD
+P 9950 5400
+F 0 "D64" H 10294 5446 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10294 5355 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10000 5100 50  0001 L TNN
+F 3 "" H 10050 5025 50  0001 L TNN
+	1    9950 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D69
+U 1 1 5FA08AD7
+P 10550 5400
+F 0 "D69" H 10894 5446 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10894 5355 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10600 5100 50  0001 L TNN
+F 3 "" H 10650 5025 50  0001 L TNN
+	1    10550 5400
+	1    0    0    -1  
+$EndComp
+Connection ~ 10550 6350
+$Comp
+L power:VCC #PWR0107
+U 1 1 5FA2EE35
+P 10550 6350
+F 0 "#PWR0107" H 10550 6200 50  0001 C CNN
+F 1 "VCC" V 10567 6478 50  0000 L CNN
+F 2 "" H 10550 6350 50  0001 C CNN
+F 3 "" H 10550 6350 50  0001 C CNN
+	1    10550 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5FA2EE40
+P 6950 5750
+F 0 "#PWR0108" H 6950 5500 50  0001 C CNN
+F 1 "GND" V 6955 5622 50  0000 R CNN
+F 2 "" H 6950 5750 50  0001 C CNN
+F 3 "" H 6950 5750 50  0001 C CNN
+	1    6950 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 6350 10550 6350
+Connection ~ 9950 6350
+Wire Wire Line
+	9350 6350 9950 6350
+Connection ~ 9350 6350
+Wire Wire Line
+	8750 6350 9350 6350
+Connection ~ 8750 6350
+Wire Wire Line
+	8150 6350 8750 6350
+Connection ~ 8150 6350
+Wire Wire Line
+	7550 6350 8150 6350
+Wire Wire Line
+	9950 5750 10550 5750
+Connection ~ 9950 5750
+Wire Wire Line
+	9350 5750 9950 5750
+Connection ~ 9350 5750
+Wire Wire Line
+	8750 5750 9350 5750
+Connection ~ 8750 5750
+Wire Wire Line
+	8150 5750 8750 5750
+Connection ~ 8150 5750
+Wire Wire Line
+	7550 5750 8150 5750
+Connection ~ 7550 5750
+Wire Wire Line
+	6950 5750 7550 5750
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D70
+U 1 1 5FA2EE60
+P 10550 6050
+F 0 "D70" H 10894 6096 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10894 6005 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10600 5750 50  0001 L TNN
+F 3 "" H 10650 5675 50  0001 L TNN
+	1    10550 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D65
+U 1 1 5FA2EE6A
+P 9950 6050
+F 0 "D65" H 10294 6096 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10294 6005 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10000 5750 50  0001 L TNN
+F 3 "" H 10050 5675 50  0001 L TNN
+	1    9950 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D60
+U 1 1 5FA2EE74
+P 9350 6050
+F 0 "D60" H 9694 6096 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9694 6005 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 9400 5750 50  0001 L TNN
+F 3 "" H 9450 5675 50  0001 L TNN
+	1    9350 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D55
+U 1 1 5FA2EE7E
+P 8750 6050
+F 0 "D55" H 9094 6096 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9094 6005 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8800 5750 50  0001 L TNN
+F 3 "" H 8850 5675 50  0001 L TNN
+	1    8750 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D40
+U 1 1 5FA2EE88
+P 8150 6050
+F 0 "D40" H 8494 6096 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 8494 6005 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8200 5750 50  0001 L TNN
+F 3 "" H 8250 5675 50  0001 L TNN
+	1    8150 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D25
+U 1 1 5FA2EE92
+P 7550 6050
+F 0 "D25" H 7894 6096 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 7894 6005 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 7600 5750 50  0001 L TNN
+F 3 "" H 7650 5675 50  0001 L TNN
+	1    7550 6050
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D6
+U 1 1 5F8DE57B
+P 6950 3450
+F 0 "D6" H 7294 3496 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 7294 3405 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 7000 3150 50  0001 L TNN
+F 3 "" H 7050 3075 50  0001 L TNN
+	1    6950 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D21
+U 1 1 5F8E6435
+P 7550 3450
+F 0 "D21" H 7894 3496 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 7894 3405 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 7600 3150 50  0001 L TNN
+F 3 "" H 7650 3075 50  0001 L TNN
+	1    7550 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D36
+U 1 1 5F8E6A76
+P 8150 3450
+F 0 "D36" H 8494 3496 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 8494 3405 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8200 3150 50  0001 L TNN
+F 3 "" H 8250 3075 50  0001 L TNN
+	1    8150 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D51
+U 1 1 5F8E7209
+P 8750 3450
+F 0 "D51" H 9094 3496 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9094 3405 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 8800 3150 50  0001 L TNN
+F 3 "" H 8850 3075 50  0001 L TNN
+	1    8750 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D56
+U 1 1 5F8E7905
+P 9350 3450
+F 0 "D56" H 9694 3496 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 9694 3405 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 9400 3150 50  0001 L TNN
+F 3 "" H 9450 3075 50  0001 L TNN
+	1    9350 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D61
+U 1 1 5F8E7F99
+P 9950 3450
+F 0 "D61" H 10294 3496 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10294 3405 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10000 3150 50  0001 L TNN
+F 3 "" H 10050 3075 50  0001 L TNN
+	1    9950 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L sk6812mini-e_easy_solder:SK6812MINI-E_Easy_Solder D66
+U 1 1 5F8E85EA
+P 10550 3450
+F 0 "D66" H 10894 3496 50  0000 L CNN
+F 1 "SK6812MINI-E_Easy_Solder" H 10894 3405 50  0000 L CNN
+F 2 "Zodiark:YS-SK6812MINI-E" H 10600 3150 50  0001 L TNN
+F 3 "" H 10650 3075 50  0001 L TNN
+	1    10550 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 3150 7550 3150
+Connection ~ 7550 3150
+Wire Wire Line
+	7550 3150 8150 3150
+Connection ~ 8150 3150
+Wire Wire Line
+	8150 3150 8750 3150
+Connection ~ 8750 3150
+Wire Wire Line
+	8750 3150 9350 3150
+Connection ~ 9350 3150
+Wire Wire Line
+	9350 3150 9950 3150
+Connection ~ 9950 3150
+Wire Wire Line
+	9950 3150 10550 3150
+Wire Wire Line
+	6950 3750 7550 3750
+Connection ~ 7550 3750
+Wire Wire Line
+	7550 3750 8150 3750
+Connection ~ 8150 3750
+Wire Wire Line
+	8150 3750 8750 3750
+Connection ~ 8750 3750
+Wire Wire Line
+	8750 3750 9350 3750
+Connection ~ 9350 3750
+Wire Wire Line
+	9350 3750 9950 3750
+Connection ~ 9950 3750
+Wire Wire Line
+	9950 3750 10550 3750
+$Comp
+L power:GND #PWR0109
+U 1 1 5F903D67
+P 6950 3150
+F 0 "#PWR0109" H 6950 2900 50  0001 C CNN
+F 1 "GND" V 6955 3022 50  0000 R CNN
+F 2 "" H 6950 3150 50  0001 C CNN
+F 3 "" H 6950 3150 50  0001 C CNN
+	1    6950 3150
+	0    1    1    0   
+$EndComp
+Connection ~ 6950 3150
+$Comp
+L power:VCC #PWR0110
+U 1 1 5F9052D1
+P 10550 3750
+F 0 "#PWR0110" H 10550 3600 50  0001 C CNN
+F 1 "VCC" V 10567 3878 50  0000 L CNN
+F 2 "" H 10550 3750 50  0001 C CNN
+F 3 "" H 10550 3750 50  0001 C CNN
+	1    10550 3750
+	0    1    1    0   
+$EndComp
+Connection ~ 10550 3750
+Wire Wire Line
+	6650 3450 6650 4100
+Wire Wire Line
+	10850 4100 10850 4750
+Wire Wire Line
+	6650 4750 6650 5400
+Wire Wire Line
+	10850 5400 10850 6050
+Text GLabel 6700 1250 0    50   Input ~ 0
+ROW0
+Text GLabel 6700 1700 0    50   Input ~ 0
+ROW1
+Text GLabel 6700 2150 0    50   Input ~ 0
+ROW2
+Text GLabel 6700 2600 0    50   Input ~ 0
+ROW3
+Text GLabel 6700 3050 0    50   Input ~ 0
+ROW4
+Text GLabel 7050 750  1    50   Input ~ 0
+COL0
+Text GLabel 7350 750  1    50   Input ~ 0
+COL1
+Text GLabel 7650 750  1    50   Input ~ 0
+COL2
+Text GLabel 7950 750  1    50   Input ~ 0
+COL3
+Text GLabel 8250 750  1    50   Input ~ 0
+COL4
+Text GLabel 8550 750  1    50   Input ~ 0
+COL5
+Text GLabel 8850 750  1    50   Input ~ 0
+COL6
+Text GLabel 1500 2350 0    50   Input ~ 0
+LED
+Text GLabel 1500 1950 0    50   Input ~ 0
+ROW0
+Text GLabel 1500 2050 0    50   Input ~ 0
+ROW1
+Text GLabel 1500 2150 0    50   Input ~ 0
+ROW2
+Text GLabel 1500 2250 0    50   Input ~ 0
+ROW3
+Text GLabel 2800 1650 2    50   Input ~ 0
+ROW4
+Text GLabel 2800 1750 2    50   Input ~ 0
+COL0
+Text GLabel 2800 1850 2    50   Input ~ 0
+COL1
+Text GLabel 2800 1950 2    50   Input ~ 0
+COL2
+Text GLabel 2800 2050 2    50   Input ~ 0
+COL3
+Text GLabel 2800 2150 2    50   Input ~ 0
+COL4
+Text GLabel 2800 2250 2    50   Input ~ 0
+COL5
+Text GLabel 2800 2350 2    50   Input ~ 0
+COL6
+$Comp
+L power:GND #PWR0111
+U 1 1 5FD5027D
+P 1500 1450
+F 0 "#PWR0111" H 1500 1200 50  0001 C CNN
+F 1 "GND" V 1505 1322 50  0000 R CNN
+F 2 "" H 1500 1450 50  0001 C CNN
+F 3 "" H 1500 1450 50  0001 C CNN
+	1    1500 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5FD54292
+P 1500 1550
+F 0 "#PWR0112" H 1500 1300 50  0001 C CNN
+F 1 "GND" V 1505 1422 50  0000 R CNN
+F 2 "" H 1500 1550 50  0001 C CNN
+F 3 "" H 1500 1550 50  0001 C CNN
+	1    1500 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5FD61498
+P 2800 1350
+F 0 "#PWR0113" H 2800 1100 50  0001 C CNN
+F 1 "GND" V 2805 1222 50  0000 R CNN
+F 2 "" H 2800 1350 50  0001 C CNN
+F 3 "" H 2800 1350 50  0001 C CNN
+	1    2800 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 5FD6EF4E
+P 2800 1550
+F 0 "#PWR0114" H 2800 1400 50  0001 C CNN
+F 1 "VCC" V 2817 1678 50  0000 L CNN
+F 2 "" H 2800 1550 50  0001 C CNN
+F 3 "" H 2800 1550 50  0001 C CNN
+	1    2800 1550
+	0    1    1    0   
+$EndComp
+Text GLabel 1500 1750 0    50   Input ~ 0
+SCL
+Text GLabel 1500 1650 0    50   Input ~ 0
+SDA
+$Comp
+L Lily58-rescue:SW_PUSH-Lily58-cache SW1
+U 1 1 5FD735B4
+P 3550 1450
+F 0 "SW1" H 3550 1705 50  0000 C CNN
+F 1 "RST Button" H 3550 1614 50  0000 C CNN
+F 2 "Zodiark:TACT_SWITCH_TVBP06" H 3550 1450 50  0001 C CNN
+F 3 "" H 3550 1450 50  0000 C CNN
+	1    3550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5FD82CAD
+P 3850 1450
+F 0 "#PWR0115" H 3850 1200 50  0001 C CNN
+F 1 "GND" V 3855 1322 50  0000 R CNN
+F 2 "" H 3850 1450 50  0001 C CNN
+F 3 "" H 3850 1450 50  0001 C CNN
+	1    3850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1450 3250 1450
+Text GLabel 10850 3450 2    50   Input ~ 0
+LED
+$Comp
+L Device:Rotary_Encoder_Switch SW2
+U 1 1 5FDAF0B3
+P 9700 2350
+F 0 "SW2" H 9700 1983 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 9700 2074 50  0000 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 9550 2510 50  0001 C CNN
+F 3 "~" H 9700 2610 50  0001 C CNN
+	1    9700 2350
+	-1   0    0    1   
+$EndComp
+Text GLabel 10000 2250 2    50   Input ~ 0
+ENC0
+Text GLabel 10000 2450 2    50   Input ~ 0
+ENC1
+$Comp
+L power:GND #PWR0116
+U 1 1 5FDD13D2
+P 10000 2350
+F 0 "#PWR0116" H 10000 2100 50  0001 C CNN
+F 1 "GND" V 10005 2222 50  0000 R CNN
+F 2 "" H 10000 2350 50  0001 C CNN
+F 3 "" H 10000 2350 50  0001 C CNN
+	1    10000 2350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1500 1850 0    50   Input ~ 0
+ENC0
+Text GLabel 1500 1350 0    50   Input ~ 0
+ENC1
+$Comp
+L Lily58-rescue:CONN_01X04-Lily58-cache P1
+U 1 1 5FDD62BC
+P 1700 3600
+F 0 "P1" H 1778 3595 50  0001 L CNN
+F 1 "OLED" H 1778 3550 50  0001 L CNN
+F 2 "Zodiark:OLED_4Pin" H 1700 3600 50  0001 C CNN
+F 3 "" H 1700 3600 50  0000 C CNN
+	1    1700 3600
+	-1   0    0    1   
+$EndComp
+Text GLabel 2700 3750 2    50   Input ~ 0
+SDA
+Text GLabel 2700 3650 2    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR0117
+U 1 1 5FDDD8EF
+P 2700 3450
+F 0 "#PWR0117" H 2700 3200 50  0001 C CNN
+F 1 "GND" V 2705 3322 50  0000 R CNN
+F 2 "" H 2700 3450 50  0001 C CNN
+F 3 "" H 2700 3450 50  0001 C CNN
+	1    2700 3450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1050 3050 0    50   Input ~ 0
+SDA
+Text GLabel 1050 3150 0    50   Input ~ 0
+SCL
+$Comp
+L power:VCC #PWR0118
+U 1 1 5FDE3005
+P 1250 3050
+F 0 "#PWR0118" H 1250 2900 50  0001 C CNN
+F 1 "VCC" V 1267 3178 50  0000 L CNN
+F 2 "" H 1250 3050 50  0001 C CNN
+F 3 "" H 1250 3050 50  0001 C CNN
+	1    1250 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0119
+U 1 1 5FDE43F6
+P 1250 3150
+F 0 "#PWR0119" H 1250 3000 50  0001 C CNN
+F 1 "VCC" V 1267 3278 50  0000 L CNN
+F 2 "" H 1250 3150 50  0001 C CNN
+F 3 "" H 1250 3150 50  0001 C CNN
+	1    1250 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5FDE5573
+P 1150 3050
+F 0 "R1" V 954 3050 50  0000 C CNN
+F 1 "R_Small" V 1045 3050 50  0000 C CNN
+F 2 "Zodiark:RESISTOR_mini" H 1150 3050 50  0001 C CNN
+F 3 "~" H 1150 3050 50  0001 C CNN
+	1    1150 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5FDE6FE6
+P 1150 3150
+F 0 "R2" V 954 3150 50  0000 C CNN
+F 1 "R_Small" V 1045 3150 50  0000 C CNN
+F 2 "Zodiark:RESISTOR_mini" H 1150 3150 50  0001 C CNN
+F 3 "~" H 1150 3150 50  0001 C CNN
+	1    1150 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0120
+U 1 1 5FDDC2DF
+P 2700 3550
+F 0 "#PWR0120" H 2700 3400 50  0001 C CNN
+F 1 "VCC" V 2717 3678 50  0000 L CNN
+F 2 "" H 2700 3550 50  0001 C CNN
+F 3 "" H 2700 3550 50  0001 C CNN
+	1    2700 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device LEFT4
+U 1 1 5FDFC8A1
+P 2600 3750
+F 0 "LEFT4" H 2600 3843 50  0000 C CNN
+F 1 "JP1" H 2600 3844 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2600 3750 50  0001 C CNN
+F 3 "" H 2600 3750 50  0001 C CNN
+	1    2600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device LEFT2
+U 1 1 5FE024F3
+P 2600 3550
+F 0 "LEFT2" H 2600 3643 50  0000 C CNN
+F 1 "JP1" H 2600 3644 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2600 3550 50  0001 C CNN
+F 3 "" H 2600 3550 50  0001 C CNN
+	1    2600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 3450 2400 3450
+Wire Wire Line
+	1900 3550 2300 3550
+Wire Wire Line
+	1900 3650 2200 3650
+Wire Wire Line
+	1900 3750 2100 3750
+Text GLabel 2700 4050 2    50   Input ~ 0
+SDA
+Text GLabel 2700 4150 2    50   Input ~ 0
+SCL
+$Comp
+L power:GND #PWR0121
+U 1 1 5FE46A80
+P 2700 4350
+F 0 "#PWR0121" H 2700 4100 50  0001 C CNN
+F 1 "GND" V 2705 4222 50  0000 R CNN
+F 2 "" H 2700 4350 50  0001 C CNN
+F 3 "" H 2700 4350 50  0001 C CNN
+	1    2700 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0122
+U 1 1 5FE46A86
+P 2700 4250
+F 0 "#PWR0122" H 2700 4100 50  0001 C CNN
+F 1 "VCC" V 2717 4378 50  0000 L CNN
+F 2 "" H 2700 4250 50  0001 C CNN
+F 3 "" H 2700 4250 50  0001 C CNN
+	1    2700 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device RIGHT4
+U 1 1 5FE46A8C
+P 2600 4350
+F 0 "RIGHT4" H 2600 4443 50  0000 C CNN
+F 1 "JP1" H 2600 4444 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2600 4350 50  0001 C CNN
+F 3 "" H 2600 4350 50  0001 C CNN
+	1    2600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device RIGHT3
+U 1 1 5FE46A92
+P 2600 4250
+F 0 "RIGHT3" H 2600 4343 50  0000 C CNN
+F 1 "JP1" H 2600 4344 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2600 4250 50  0001 C CNN
+F 3 "" H 2600 4250 50  0001 C CNN
+	1    2600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device RIGHT2
+U 1 1 5FE46A98
+P 2600 4150
+F 0 "RIGHT2" H 2600 4243 50  0000 C CNN
+F 1 "JP1" H 2600 4244 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2600 4150 50  0001 C CNN
+F 3 "" H 2600 4150 50  0001 C CNN
+	1    2600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device RIGHT1
+U 1 1 5FE46A9E
+P 2600 4050
+F 0 "RIGHT1" H 2600 4143 50  0000 C CNN
+F 1 "JP1" H 2600 4144 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2600 4050 50  0001 C CNN
+F 3 "" H 2600 4050 50  0001 C CNN
+	1    2600 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3450 2400 4050
+Wire Wire Line
+	2400 4050 2500 4050
+Wire Wire Line
+	2400 3450 2500 3450
+Wire Wire Line
+	2300 3550 2300 4150
+Wire Wire Line
+	2300 4150 2500 4150
+Wire Wire Line
+	2300 3550 2500 3550
+Wire Wire Line
+	2200 3650 2200 4250
+Wire Wire Line
+	2200 4250 2500 4250
+Wire Wire Line
+	2200 3650 2500 3650
+Wire Wire Line
+	2100 3750 2100 4350
+Wire Wire Line
+	2100 4350 2500 4350
+Wire Wire Line
+	2100 3750 2500 3750
+Wire Wire Line
+	8850 1800 8850 2250
+Wire Wire Line
+	8750 2450 9400 2450
+Wire Wire Line
+	9400 2250 8850 2250
+Connection ~ 8850 2250
+Wire Wire Line
+	8850 2250 8850 2700
+Text GLabel 1500 1250 0    50   Input ~ 0
+Data
+$Comp
+L power:VCC #PWR0123
+U 1 1 5FF3942F
+P 1500 4750
+F 0 "#PWR0123" H 1500 4600 50  0001 C CNN
+F 1 "VCC" V 1517 4878 50  0000 L CNN
+F 2 "" H 1500 4750 50  0001 C CNN
+F 3 "" H 1500 4750 50  0001 C CNN
+	1    1500 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5FF3A966
+P 1500 4850
+F 0 "#PWR0124" H 1500 4600 50  0001 C CNN
+F 1 "GND" V 1505 4722 50  0000 R CNN
+F 2 "" H 1500 4850 50  0001 C CNN
+F 3 "" H 1500 4850 50  0001 C CNN
+	1    1500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device JP2
+U 1 1 5FF3CB95
+P 1050 3250
+F 0 "JP2" V 1050 3298 50  0000 L CNN
+F 1 "JP1" H 1050 3344 50  0001 C CNN
+F 2 "Zodiark:jumper_smd_2dub" H 1050 3250 50  0001 C CNN
+F 3 "" H 1050 3250 50  0001 C CNN
+	1    1050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device JP1
+U 1 1 5FF3E25E
+P 1050 2950
+F 0 "JP1" V 1050 2998 50  0000 L CNN
+F 1 "JP1" H 1050 3044 50  0001 C CNN
+F 2 "Zodiark:jumper_smd_2dub" H 1050 2950 50  0001 C CNN
+F 3 "" H 1050 2950 50  0001 C CNN
+	1    1050 2950
+	0    1    1    0   
+$EndComp
+Text GLabel 1500 4600 2    50   Input ~ 0
+TRRS1
+Text GLabel 1050 3350 3    50   Input ~ 0
+TRRS2
+$Comp
+L Device:Jumper_NC_Small JP3
+U 1 1 5FF77868
+P 2000 4950
+F 0 "JP3" H 2000 4856 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 2000 4856 50  0001 C CNN
+F 2 "Zodiark:jumper_data" H 2000 4950 50  0001 C CNN
+F 3 "~" H 2000 4950 50  0001 C CNN
+	1    2000 4950
+	-1   0    0    1   
+$EndComp
+Text GLabel 2100 4950 2    50   Input ~ 0
+Data
+Wire Wire Line
+	1500 4950 1900 4950
+Text GLabel 1900 5000 3    50   Input ~ 0
+TRRS2
+Wire Wire Line
+	1900 4950 1900 5000
+Connection ~ 1900 4950
+Text GLabel 1050 2850 1    50   Input ~ 0
+TRRS1
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device LEFT3
+U 1 1 5FDFFA02
+P 2600 3650
+F 0 "LEFT3" H 2600 3743 50  0000 C CNN
+F 1 "JP1" H 2600 3744 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2600 3650 50  0001 C CNN
+F 3 "" H 2600 3650 50  0001 C CNN
+	1    2600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:Jumper_NO_Small-Device LEFT1
+U 1 1 5FE05098
+P 2600 3450
+F 0 "LEFT1" H 2600 3543 50  0000 C CNN
+F 1 "JP1" H 2600 3544 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2600 3450 50  0001 C CNN
+F 3 "" H 2600 3450 50  0001 C CNN
+	1    2600 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 3450
+Connection ~ 2300 3550
+Connection ~ 2200 3650
+Connection ~ 2100 3750
+$Comp
+L Lily58-rescue:MJ-4PP-9-Lily58-cache J2
+U 1 1 5FF7287A
+P 1050 4750
+F 0 "J2" H 1083 5147 60  0000 C CNN
+F 1 "MJ-4PP-9-Lily58-cache" H 1083 5041 60  0000 C CNN
+F 2 "Zodiark:MJ-4PP-9_rev2" H 1050 4750 60  0001 C CNN
+F 3 "" H 1050 4750 60  0000 C CNN
+	1    1050 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache U2
+U 1 1 614DE341
+P 1200 5950
+F 0 "U2" H 1378 6028 60  0000 L CNN
+F 1 "HOLE-Lily58-cache" H 1378 5922 60  0000 L CNN
+F 2 "Zodiark:HOLE_M2_TH" H 1200 5950 60  0001 C CNN
+F 3 "" H 1200 5950 60  0000 C CNN
+	1    1200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache U3
+U 1 1 614DEDC4
+P 1200 6400
+F 0 "U3" H 1378 6478 60  0000 L CNN
+F 1 "HOLE-Lily58-cache" H 1378 6372 60  0000 L CNN
+F 2 "Zodiark:HOLE_M2_TH" H 1200 6400 60  0001 C CNN
+F 3 "" H 1200 6400 60  0000 C CNN
+	1    1200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache U4
+U 1 1 614DFE34
+P 1200 6850
+F 0 "U4" H 1378 6928 60  0000 L CNN
+F 1 "HOLE-Lily58-cache" H 1378 6822 60  0000 L CNN
+F 2 "Zodiark:HOLE_M2_TH" H 1200 6850 60  0001 C CNN
+F 3 "" H 1200 6850 60  0000 C CNN
+	1    1200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache U5
+U 1 1 614E1011
+P 1200 7300
+F 0 "U5" H 1378 7378 60  0000 L CNN
+F 1 "HOLE-Lily58-cache" H 1378 7272 60  0000 L CNN
+F 2 "Zodiark:HOLE_M2_TH" H 1200 7300 60  0001 C CNN
+F 3 "" H 1200 7300 60  0000 C CNN
+	1    1200 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache U6
+U 1 1 614E1FF9
+P 2500 5950
+F 0 "U6" H 2678 6028 60  0000 L CNN
+F 1 "HOLE-Lily58-cache" H 2678 5922 60  0000 L CNN
+F 2 "Zodiark:HOLE_M2_TH" H 2500 5950 60  0001 C CNN
+F 3 "" H 2500 5950 60  0000 C CNN
+	1    2500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache U7
+U 1 1 614E3494
+P 2500 6400
+F 0 "U7" H 2678 6478 60  0000 L CNN
+F 1 "HOLE-Lily58-cache" H 2678 6372 60  0000 L CNN
+F 2 "Zodiark:HOLE_M2_TH" H 2500 6400 60  0001 C CNN
+F 3 "" H 2500 6400 60  0000 C CNN
+	1    2500 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache U8
+U 1 1 6152278F
+P 2500 6850
+F 0 "U8" H 2678 6928 60  0000 L CNN
+F 1 "HOLE-Lily58-cache" H 2678 6822 60  0000 L CNN
+F 2 "Zodiark:HOLE_M2_TH" H 2500 6850 60  0001 C CNN
+F 3 "" H 2500 6850 60  0000 C CNN
+	1    2500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache U9
+U 1 1 615238A3
+P 2500 7300
+F 0 "U9" H 2678 7378 60  0000 L CNN
+F 1 "HOLE-Lily58-cache" H 2678 7272 60  0000 L CNN
+F 2 "Zodiark:HOLE_M2_TH" H 2500 7300 60  0001 C CNN
+F 3 "" H 2500 7300 60  0000 C CNN
+	1    2500 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lily58-rescue:HOLE-Lily58-cache U10
+U 1 1 61528665
+P 3800 5950
+F 0 "U10" H 3978 6028 60  0000 L CNN
+F 1 "HOLE-Lily58-cache" H 3978 5922 60  0000 L CNN
+F 2 "Zodiark:HOLE_M2_TH" H 3800 5950 60  0001 C CNN
+F 3 "" H 3800 5950 60  0000 C CNN
+	1    3800 5950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
