@@ -1,5 +1,7 @@
 (sym_lib_table
-  (lib (name Lily58-rescue)(type Legacy)(uri ${KIPRJMOD}/ZodiarkLibs/Lily58-rescue.lib)(options "")(descr ""))
-  (lib (name sk6812mini-e_easy_solder)(type Legacy)(uri ${KIPRJMOD}/ZodiarkLibs/sk6812mini-e_easy_solder.lib)(options "")(descr ""))
-  (lib (name MX_Alps_Hybrid)(type Legacy)(uri ${KIPRJMOD}/ZodiarkLibs/MX_Alps_Hybrid.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Lily58-rescue")(type "Legacy")(uri "${KIPRJMOD}/ZodiarkLibs/Lily58-rescue.lib")(options "")(descr ""))
+  (lib (name "sk6812mini-e_easy_solder")(type "Legacy")(uri "${KIPRJMOD}/ZodiarkLibs/sk6812mini-e_easy_solder.lib")(options "")(descr ""))
+  (lib (name "MX_Alps_Hybrid")(type "Legacy")(uri "${KIPRJMOD}/ZodiarkLibs/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name "ZodiarkSplit-rescue")(type "KiCad")(uri "${KIPRJMOD}/ZodiarkSplit-rescue.kicad_sym")(options "")(descr ""))
 )

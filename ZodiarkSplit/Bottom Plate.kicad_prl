@@ -67,7 +67,7 @@
       39,
       40
     ],
-    "visible_layers": "00010ff_80000001",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -77,7 +77,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ZodiarkSplit.kicad_prl",
+    "filename": "Bottom Plate.kicad_prl",
     "version": 3
   },
   "project": {

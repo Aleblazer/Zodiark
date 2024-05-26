@@ -1,8 +1,8 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('KiCad electronic assembly'),'2;1');
-FILE_NAME('ZodiarkSplit.step','2021-03-22T22:01:50',('An Author'),(
-    'A Company'),'Open CASCADE STEP processor 6.9',
+FILE_NAME('ZodiarkSplit(NoDiodes).step','2021-03-22T22:15:28',(
+    'An Author'),('A Company'),'Open CASCADE STEP processor 6.9',
   'KiCad to STEP converter','Unknown');
 FILE_SCHEMA(('AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'));
 ENDSEC;
